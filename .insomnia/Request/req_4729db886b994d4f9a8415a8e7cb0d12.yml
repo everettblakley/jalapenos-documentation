@@ -1,0 +1,25 @@
+_id: req_4729db886b994d4f9a8415a8e7cb0d12
+authentication: {}
+body: {}
+created: 1604423247021
+description: ""
+headers:
+  - description: ""
+    id: pair_1a6f60c64321479e9609978227121b31
+    name: SessionID
+    value: "{{ session_id }}"
+isPrivate: false
+metaSortKey: -1604423247021
+method: DELETE
+modified: 1604423292111
+name: Removes a User from the system
+parameters: []
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/users/{{user_id}}"

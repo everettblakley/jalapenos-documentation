@@ -1,0 +1,15 @@
+_id: fld_5afe17c5dc98451eab6c2782b0f0ef28
+created: 1604420339272
+description: ""
+environment:
+  user_id: 9ip70005tt
+  user_name: everett
+environmentPropertyOrder:
+  "&":
+    - user_id
+    - user_name
+metaSortKey: -1604420339272
+modified: 1604422710284
+name: users
+parentId: wrk_be2ef6fa623a45fea4c1b3e6b8e9acc3
+type: RequestGroup

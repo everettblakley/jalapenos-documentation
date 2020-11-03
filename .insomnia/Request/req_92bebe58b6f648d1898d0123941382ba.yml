@@ -1,0 +1,40 @@
+_id: req_92bebe58b6f648d1898d0123941382ba
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Everett Blakley",
+    	"role": "Manager"
+    }
+created: 1604422405826
+description: >-
+  Updates the user based on the provided attributes. This request has various
+  role-based rules:
+
+   - Any User can update their own name
+   
+   - A Manager can update all attributes of any User
+headers:
+  - id: pair_bbe582d870684bb0b841282a76290965
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_11d9f04248a44cf4b294dbe674eb467e
+    name: SessionID
+    value: "{{session_id}}"
+isPrivate: false
+metaSortKey: -1604422405826
+method: PUT
+modified: 1604423110386
+name: Updates a User to have the attributes in the body
+parameters: []
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/users/{{user_id}}"

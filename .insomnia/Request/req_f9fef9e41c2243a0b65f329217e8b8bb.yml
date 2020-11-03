@@ -1,0 +1,21 @@
+_id: req_f9fef9e41c2243a0b65f329217e8b8bb
+authentication: {}
+body: {}
+created: 1604422089980
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1604422089980
+method: GET
+modified: 1604422269758
+name: Returns a specific user based on an id
+parameters: []
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/users/{{user_id}}"

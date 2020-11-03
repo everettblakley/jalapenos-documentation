@@ -1,0 +1,25 @@
+_id: req_d5c9f6206056449b8e2f93932f298732
+authentication: {}
+body: {}
+created: 1604422733944
+description: ""
+headers:
+  - description: ""
+    id: pair_72c5e386c7ad4445b0f6b6a1f165f2c7
+    name: SessionID
+    value: "{{session-id}}"
+isPrivate: false
+metaSortKey: -1604422733944
+method: GET
+modified: 1604422896765
+name: Logs the user out of the application
+parameters: []
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}l/users/logout"

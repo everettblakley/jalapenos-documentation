@@ -1,0 +1,21 @@
+_id: req_713c94084694403c877bf6b2e43a2bd4
+authentication: {}
+body: {}
+created: 1604420983372
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1604420983372
+method: GET
+modified: 1604420994270
+name: Returns all users
+parameters: []
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/users/"

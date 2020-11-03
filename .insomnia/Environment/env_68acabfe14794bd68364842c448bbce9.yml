@@ -1,0 +1,16 @@
+_id: env_68acabfe14794bd68364842c448bbce9
+color: null
+created: 1604420814834
+data:
+  base_url: http://localhost:8080
+  session_id: testsessionid
+dataPropertyOrder:
+  "&":
+    - base_url
+    - session_id
+isPrivate: false
+metaSortKey: 1604420814834
+modified: 1604422925016
+name: Dev
+parentId: env_aa383e6d9a61a97c271794e3f0c4915c0357b804
+type: Environment

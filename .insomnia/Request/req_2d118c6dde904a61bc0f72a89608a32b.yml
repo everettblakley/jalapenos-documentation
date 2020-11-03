@@ -1,0 +1,25 @@
+_id: req_2d118c6dde904a61bc0f72a89608a32b
+authentication: {}
+body: {}
+created: 1604422671405
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1604422671405
+method: GET
+modified: 1604422697240
+name: Logs the User in and returns a session token
+parameters:
+  - description: ""
+    id: pair_838e4150fd4d4c07b2bc2c5df617a607
+    name: name
+    value: "{{user_name}}"
+parentId: fld_5afe17c5dc98451eab6c2782b0f0ef28
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}l/users/login"
